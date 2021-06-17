@@ -17,19 +17,31 @@
 <body>
     <!-- navbar  -->
     <nav>
-        <div id="navbar"> 
-            <img src="img/logo.svg" alt="logo-discord">
-            <ul>
-                <li><a href="">Scarica</a></li>
-                <li><a href="">Perché Discord</a></li>
-                <li><a href="">Nitro</a></li>
-                <li><a href="">Sicurezza</a></li>
-                <li><a href="">Assistenza</a></li>
-            </ul>
-
-            <div class="accedi"> <a href="#">Accedi</a>
+        <section id="navbar" class="clearfix">
+            <div class="img">
+                <img src="img/logo.svg" alt="logo-discord"> 
             </div> 
-        </div>    
+
+            <div class="menu">
+                <ul>
+                    <li><a href="">Scarica</a></li>
+                    <li><a href="">Perchè Discord</a></li>
+                    <li><a href="">Nitro</a></li>
+                    <li><a href="">Sicurezza</a></li>
+                    <li><a href="">Assistenza</a></li>
+                
+                </ul>
+            </div>
+
+            <div class="accedi">
+                <a href="#">Accedi</a>
+            </div>
+                
+        
+        
+
+            
+        </section>    
     </nav>
     <!-- navbar  -->
 
@@ -157,9 +169,11 @@
     </main>
     <!-- fine main  -->
 
-    <footer>
-        <div class="wrapper clearfix">
-            <div class="prima-parte">
+    <footer class="clearfix">
+        <section class="wrapper clearfix">
+
+            <!--                prima parte             -->
+            <div class="prima-parte-footer">
                 <h3>Il tuo posto per parlare</h3>
                 <div class="italiano">
                     <img src="img/ita.png" alt="">
@@ -170,70 +184,66 @@
                     <a href=""><i class="fab fa-twitter"></i></a>
                     <a href=""><i class="fab fa-instagram"></i></a>
                     <a href=""><i class="fab fa-facebook"></i></a>
-                    <a href=""><i class="fab fa-youtube"></i></a>
-                                        
+                    <a href=""><i class="fab fa-youtube"></i></a>                   
                 </div>
             </div>
+            <!--                fine prima parte             -->
 
+            <!--                seconda parte footer             -->
             <div class="seconda-parte-footer">
                 <!-- prodotto  -->
-                <div class="footer-section">
-                   <ul>
-                       <li id="purple">Prodotto</li>
-                       <li>Scarica</li>
-                       <li>Perchè Discord</li>
-                       <li>Nitro</li>
-                       <li>Sicurezza</li>
-                       <li>Assistenza</li>
-                   </ul>
-                </div>
-
-                <!-- compagnia  -->
-                <div class="footer-section">
-                    <ul>
-                        <li id="purple">Compagnia</li>
-                        <li>Chi siamo</li>
-                        <li>Lavora con noi</li>
-                        <li>Marchio</li>
-                        <li>Redazione</li>
-                        <li>Negozio</li>
-                    </ul>
+                
+                <div class="footer-section prodotto">
+                    <h5 id="purple">Prodotto</h5>
+                    <a href="# ">Scarica</a>
+                    <a href="# ">Perchè Discord</a>
+                    <a href="# ">Nitro</a>
+                    <a href="# ">Sicurezza</a>
+                    <a href="# ">Assistenza</a>
                  </div>
 
-                 <!-- risorse  -->
-                 <div class="footer-section">
-                    <ul>
-                        <li id="purple">Risorse</li>
-                        <li>Scarica</li>
-                        <li>Perchè Discord</li>
-                        <li>Nitro</li>
-                        <li>Sicurezza</li>
-                        <li>Assistenza</li>
-                        <li>Scarica</li>
-                        <li>Perchè Discord</li>
-                        <li>Nitro</li>
-                        <li>Sicurezza</li>
-                        <li>Assistenza</li>
-                        <li>Scarica</li>
-                    
-                    </ul>
-                 </div>
 
-                 <!-- norme  -->
-                 <div class="footer-section">
-                    <ul>
-                        <li id="purple">Norme</li>
-                        <li>Scarica</li>
-                        <li>Perchè Discord</li>
-                        <li>Nitro</li>
-                        <li>Sicurezza</li>
-                        
-                    </ul>
-                 </div>
+                 <!-- compagnia  -->
+                <div class="footer-section compagnia">
+            
+                    <h5 id="purple">Compagnia</h5>
+                    <a href="#">Chi siamo</a>
+                    <a href="#">Lavora con noi</a>
+                    <a href="#">Marchio</a>
+                    <a href="#">Redazione</a>
+                    <a href="#">Negozio</a>
+            
+             </div>
+
+             <!-- risorse  -->
+             <div class="footer-section risorse">
+                <h5 id="purple">Risorse</h5>
+                <a href="#">Scarica</a>
+                <a href="#">Perchè Discord</a>
+                <a href="#">Nitro</a>
+                <a href="#">Sicurezza</a>
+                <a href="#">Assistenza</a>
+                
+                
+         </div>
+
+         <!-- norme  -->
+         <div class="footer-section norme">
+            
+            <h5 id="purple">Norme</h5>
+            <a href="#">Scarica</a>
+            <a  href="#">Perchè Discord</a>
+            <a  href="#">Nitro</a>
+            <a  href="#">Sicurezza</a>
+            <a  href="#">Sicurezza</a>
+            
+     </div>
                 
             </div>
 
-            <div class="registrati clearfix">
+        </section>
+
+            <div class=" wrapper registrati clearfix">
                  <hr>
                  <img src="img/logo.svg" alt="">
                  <button class="register-button button-3">Registrati</button>
@@ -241,7 +251,7 @@
             </div>
 
 
-        </div>
+
 
         
 
