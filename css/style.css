@@ -101,6 +101,11 @@ nav {
 
 }
 
+.menu li a:hover {
+  color: #23272A;
+}
+
+
 .accedi {
   display: inline-block;
   float: right;
@@ -114,6 +119,11 @@ nav {
   padding: 5px 10px;
   border-radius: 50px;
   float: right;
+}
+/*          hover               */
+.accedi a:hover {
+  background-color: #23272A;
+  color: white;
 }
 
 
@@ -244,6 +254,7 @@ h3 {
   background-color: #5964F2;;
 }
 
+
 .last-section-button {
   width: 100%;
   text-align: center;
@@ -306,6 +317,11 @@ footer .prima-parte-footer p a{
   color: white;
   padding: 20px 20px 0 0;
 }
+
+.icons a:hover i{
+  color: rgb(55, 41, 184);
+ 
+}
 /*                fine prima parte footer             */
 
 
@@ -319,6 +335,7 @@ footer .prima-parte-footer p a{
 }
 
 .footer-section  {
+  float: left;
   display: inline-block;
   margin-right: 100px;
   text-align: left;
@@ -335,6 +352,10 @@ footer .prima-parte-footer p a{
   padding-bottom: 10px;
   font-size:  13.26px;
   text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #5964F2;
 }
 
 .registrati {
@@ -356,9 +377,10 @@ footer .prima-parte-footer p a{
   padding: 10px;
 }
 
-hr {
-  border: #5964F2 ;
-}
+
+/*                 fine registrati               */
+
+
 
 /*                 waves               */
 .waves {
