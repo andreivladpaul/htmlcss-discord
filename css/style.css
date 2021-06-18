@@ -360,4 +360,13 @@ hr {
   border: #5964F2 ;
 }
 
+/*                 waves               */
+.waves {
+  margin-bottom: -10px;
+}
+ .waves #rotate {
+  transform: rotate(180deg);
+  margin-top: -2px;
+
+ }
 
